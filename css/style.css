@@ -1,0 +1,372 @@
+body{
+	margin: 0px;
+	font-family: 'Open-Sans', sans-serif;
+}
+
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0px;
+}
+
+p{
+	margin: 0px;
+}
+
+/*Container
+===============================*/
+
+.container{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/*Header
+===============================*/
+
+.header{
+	height: 94px;
+	width: 100%;
+	background-color: #000;
+}
+
+.header__inner{
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*Nav
+===============================*/
+.nav{
+	display: flex;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.nav__link{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	opacity: 0.75;
+	transition: opacity 0.1s linear;
+	margin-left: 35px;
+}
+
+.nav__link:first-child{
+	margin-left: 0px;
+}
+
+.nav__link:hover{
+	text-decoration: underline;
+	opacity: 1;
+}
+
+/*Intro
+===============================*/
+
+.intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 750px;
+	background-size: cover;
+}
+
+.intro__inner{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 700px;
+	text-align: center;
+}
+
+.intro__title{
+	margin: 0 0 30px;
+	font-family: 'Open sans', sans-serif;
+	font-size: 65px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.1;
+}
+
+.intro__subtitle{
+	font-size: 22px;
+	line-height: 1.5;
+	font-weight: 400;
+	margin-bottom: 60px;
+}
+
+
+/*Button
+===============================*/
+
+.btn{
+	display: inline-block;
+	vertical-align: top;
+	padding: 14px 40px;
+	border-radius: 3px;
+	border: 0;
+	cursor: pointer;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: background 0.1s linear;
+}
+
+.btn--red{
+	background-color: #e84545;
+}
+
+.btn--red:hover{
+	background-color: #dd3434;
+}
+
+/*Footer
+===============================*/
+.footer{
+	background-color: #3a3e64; 
+}
+
+.footer__inner{
+	padding: 70px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer__block{
+	width: 33.33333%;
+	text-align: center;
+}
+
+.footer__title{
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.footer__adress{
+	line-height: 1.5;
+	font-size: 14px;
+	font-style: normal;
+	color: rgba(255, 255, 255, .5);
+}
+
+.footer__text{
+	line-height: 1.5;
+	font-size: 14px;
+	color: rgba(255, 255, 255, .5);
+}
+
+/*Copyright
+===============================*/
+.copyright{
+	padding: 20px 0;
+	background-color: #313435;
+}
+
+.copyright__text{
+	text-align: center;
+	font-size: 14px;
+	color: #808080;
+	line-height: 1.5;
+}
+
+.copyright__text span{
+	color: #fff;
+}
+
+/*Catalog
+===============================*/
+.catalog__item{
+	margin: 20px 0;
+	padding: 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.catalog__cars{
+	width: 100%;
+	max-width: 265px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+}
+
+.catalog__info{
+	margin-left: 20px;
+}
+
+.info__title{
+	font-weight: 700;
+}
+
+.info__text{
+	font-weight: 700;
+	opacity: 0.7;
+}
+
+.info__specs{
+	margin: 20px 0; 
+}
+
+.catalog__order{
+	margin: 0 160px;
+	border: 1px solid #C0C0C0;
+	border-radius: 5px;
+	width: 250px;
+	height: 100px;
+	padding: 10px;
+	font-family: 'Open-Sans', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+.catalog__price{
+	padding-bottom: 10px;
+}
+
+.addinfo{
+	margin-bottom: 10px;
+}
+
+/*Registration
+===============================*/
+.registration__item{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.registration__car{
+	width: 100%;
+	max-width: 300px;
+}
+
+.registration__carmodel{
+	font-weight: 400;
+	margin-bottom: 20px;
+	color: #DC143C;
+}
+
+.registration__title{
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.engine{
+	opacity: 0.5;
+}
+
+.registration__specs{
+	margin-bottom: 10px;
+}
+
+.registration__client{
+	width: 100%;
+	max-width: 600px;
+	margin-left: 30px;
+}
+
+.client__title{
+	margin: 30px 0;
+	font-weight: 700;
+	color: #DC143C;
+}
+
+.client__data{
+	border: 1px solid grey;
+	border-radius: 3px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.client__row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 15px; 
+}
+
+.row__input{
+	width: 300px;
+	border-radius: 25px;
+	padding: 5px;
+	outline: none;
+}
+
+.order{
+	margin: 50px;
+	text-align: center;
+}
+
+/*thx
+===============================*/
+.thx__inner{
+	text-align: center;	
+}
+
+.thx__title{
+	margin: 100px 0;
+	color: #DC143C;
+}
+
+.thx__text{
+	margin: 100px 0;
+}
+
+/*contacts
+===============================*/
+.contact__title{
+	font-weight: 700;
+	margin: 40px 0;
+}
+
+.contact__text{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px 0;
+}
+
+.email{
+	margin-right: 5px;
+}
+
+/*conditions
+===============================*/
+.coditions__inner__title{
+	font-size: 36px;
+	margin: 25px 0;
+}
+
+.conditions__item{
+	border: 1px solid grey;
+	border-radius: 3px;
+	margin-bottom: 30px;
+}
+
+.conditions__title{
+	padding: 5px;
+	font-weight: 700;
+	border-bottom: 1px solid grey;
+	background-color: #F0F8FF;
+}
+
+.conditions__text{
+	margin: 5px;
+}
+
+.text__alignment{
+	margin: 5px 0;
+}
